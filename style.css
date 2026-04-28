@@ -1,0 +1,58 @@
+body {
+    font-family: Arial;
+    background: #f4f4f4;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.container {
+    width: 400px;
+    margin: 30px auto;
+}
+
+textarea, input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    background: #28a745;
+    color: white;
+}
+
+.note {
+    background: white;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: left;
+    position: relative;
+}
+
+.delete-btn {
+    background: red;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.edit-btn {
+    background: orange;
+    position: absolute;
+    right: 50px;
+    top: 10px;
+}
+
+/* 🌙 Dark Mode */
+.dark {
+    background: #222;
+    color: white;
+}
+
+.dark .note {
+    background: #333;
+}
